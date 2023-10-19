@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Agdasima";
+  background: url("images/back1.jpg") no-repeat;
+  background-size: auto;
+}
+.closebut {
+  z-index: 1;
+  position: absolute;
+  border-radius: 10px 0 10px 0;
+  padding: 5px 15px;
+  background-color: #00000033;
+  color: white;
+  font-size: 1.2em;
+  border: 1px solid rgba(200, 200, 200, 0.75);
+}
+.flex {
+  display: flex;
+}
+.centerflex {
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.charbox {
+  flex-wrap: wrap;
+}
+ul.visionfilter {
+  list-style: none;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  margin-block: 5px;
+  font-size: 1.2em;
+}
+ul.switchlist {
+  list-style: none;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.4em;
+}
+.charbox {
+  justify-content: space-evenly;
+  height: 41vh;
+  max-width: 700px;
+  overflow: auto;
+  scrollbar-gutter: stable both-edges;
+}
+.charlist {
+  background: linear-gradient(to bottom, #77777799, #cccccc55);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  height: 350px;
+}
+.maincont {
+  margin-block: 20vh;
+  margin-inline: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  height: 50vh;
+  max-width: 700px;
+}
+.charbox::-webkit-scrollbar {
+  width: 12px;
+}
+.charbox::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 3px solid rgba(201, 121, 23, 0.503);
+}
+
+.charcont {
+  width: 180px;
+  height: 100px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.name {
+}
+.charelement {
+}
+.charrarity {
+  color: gold;
+}
+
+.imagecont {
+  width: 50%;
+}
+
+.imagecont img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.textcont {
+  font-size: 1.2rem;
+  flex-basis: 100px;
+}
+
+.articont {
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+}
+.artimaincont {
+  overflow: auto;
+  height: 50vh;
+  max-width: 700px;
+  margin-top: 5px;
+  background: linear-gradient(to bottom, #77777799, #cccccc55);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  overflow-x: hidden;
+}
+.artimaincont::-webkit-scrollbar {
+  width: 12px;
+}
+.artimaincont::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 3px solid rgba(201, 121, 23, 0.503);
+}
+.artitextcont {
+  width: 200px;
+}
+.artiname {
+  text-align: center;
+  width: 90px;
+}
+.twop,
+.fourp {
+  width: 50px;
+  text-align: center;
+}
+.modbg {
+  height: 100vh;
+  width: 100%;
+  background-color: #555555aa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.modcont {
+  color: white;
+  width: 500px;
+  height: 250px;
+  background-color: #33333388;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.modcontent {
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+.modcontent::-webkit-scrollbar {
+  display: none;
+}
+.bonusbut {
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 5px;
+}
+.enemy {
+  text-align: center;
+}
+.loadtext {
+  margin-top: 15vh;
+  text-align: center;
+}
+
+.singlecharcont {
+  margin-top: 5px;
+  max-width: 700px;
+  gap: 25px;
+}
+
+.imagecontSingle {
+  border-radius: 10px 0 0 10px;
+  width: 200px;
+  height: 350px;
+  background: url("images/back1.jpg"), #00000077;
+  background-blend-mode: overlay;
+}
+
+.imagecontSingle img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.textcontSingle {
+  text-align: center;
+  display: grid;
+  gap: 5px;
+  margin-left: 50px;
+  width: 335px;
+  font-size: 1.2rem;
+  grid-auto-columns: 80px;
+  grid-auto-rows: 25px;
+}
+.nameSingle {
+  grid-column: span 4;
+}
+.titleSingle {
+  grid-column: span 4;
+}
+.weaponSingle {
+  grid-column: span 2;
+}
+.affiliationSingle {
+  grid-column: span 2;
+}
+.constellationSingle {
+  grid-column: 1/5;
+}
+.descriptionSingle {
+  margin-top: 20px;
+  grid-row: span 5;
+  grid-column: span 4;
+}
+.bgimglist {
+  max-width: 500px;
+  gap: 20px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #00000000;
+}
+.bglistimg {
+  width: 33.33%;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.bglistimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bgswitch {
+  justify-content: center;
+  align-items: center;
+}

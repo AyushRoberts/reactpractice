@@ -1,0 +1,79 @@
+@media screen and (max-width: 868px) {
+  body {
+    font-size: 12px;
+  }
+  .signUpForm,
+  .loginForm {
+    left: 0;
+    top: 10vh;
+  }
+  .submain {
+    flex-direction: column;
+    background-color: white;
+    gap: 40px;
+  }
+  .subcards {
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 20px;
+  }
+  .card {
+    flex-direction: row;
+    gap: 0px;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .submaincont {
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  .plandevices {
+    gap: 10px;
+  }
+  .active .planname::after {
+    content: "";
+    position: absolute;
+    top: 35%;
+    bottom: 40%;
+    right: -23%;
+    border: 15px solid transparent;
+    border-left-color: var(--primarycolour);
+  }
+  .subdet {
+    flex-direction: row;
+  }
+  .priceheading,
+  .qualityheding,
+  .resheading,
+  .devicehading {
+    height: 100px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .plandet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 80px;
+  }
+  .switcherlist {
+    flex-direction: column;
+    width: 130px;
+    margin-left: 20px;
+  }
+  .line {
+    display: none;
+  }
+  .paymentcont {
+    flex-direction: column-reverse;
+    top: 20vh;
+    left: 10vh;
+    width: 300px;
+  }
+  .paymentright {
+    border-radius: 10px 10px 0 0;
+  }
+}
